@@ -60,7 +60,7 @@
         num_shift {
             bindings = <
 &trans  &trans      &trans      &trans      &trans      &trans                      &trans      &trans      &trans           &trans         &trans                     &trans
-&trans  &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)                  &kp LS(N6)  &kp LS(N7)  &kp LS(N8)       &kp LS(N9)     &kp LS(MINUS)              &trans
+&trans  &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)                  &kp LS(N6)  &kp LS(N7)  &kp LS(N8)       &kp LS(N9)     &kp MINUS                  &trans
 &trans  &trans      &trans      &trans      &trans      &trans      &trans  &trans  &trans      &trans      &kp LS(INT_YEN)  &kp LS(LBKT)   &kp LS(RBKT)               &trans
 &trans  &trans      &trans      &trans      &trans      &trans      &trans  &trans  &trans      &trans      &kp LS(MINUS)    &kp LS(SQT)    &mt RSHFT LS(NON_US_HASH)  &trans
 &trans  &trans      &trans      &trans      &trans      &trans      &trans  &trans  &trans      &trans      &trans           &kp LS(EQUAL)  &kp LS(INT1)               &trans
