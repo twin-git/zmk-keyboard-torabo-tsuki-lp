@@ -2,6 +2,7 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
+#include <dt-bindings/zmk/pointing.h>
 
 / {
     combos {
@@ -49,11 +50,11 @@
 
         num {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans    &trans       &trans     &trans                 &trans
-&trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                  &kp N6  &kp N7    &kp N8       &kp N9     &zero_hyphen           &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp INT1  &kp INT_YEN  &kp LBKT   &kp RBKT               &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &kp MINUS    &kp SQT    &mt RSHFT NON_US_HASH  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans       &kp EQUAL  &kp INT1               &trans
+&trans  &trans  &trans     &trans     &trans     &trans                  &trans  &trans    &trans       &trans     &trans                 &trans
+&trans  &kp N1  &kp N2     &kp N3     &kp N4     &kp N5                  &kp N6  &kp N7    &kp N8       &kp N9     &zero_hyphen           &trans
+&trans  &trans  &mkp MCLK  &mkp RCLK  &mkp LCLK  &trans  &trans  &trans  &trans  &kp INT1  &kp INT_YEN  &kp LBKT   &kp RBKT               &trans
+&trans  &trans  &trans     &mkp MB4   &mkp MB5   &trans  &trans  &trans  &trans  &trans    &kp MINUS    &kp SQT    &mt RSHFT NON_US_HASH  &trans
+&trans  &trans  &trans     &trans     &trans     &trans  &trans  &trans  &trans  &trans    &trans       &kp EQUAL  &kp INT1               &trans
             >;
         };
 
