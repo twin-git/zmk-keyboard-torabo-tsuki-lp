@@ -51,7 +51,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans        &trans                   &trans
 &trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                  &kp N6  &kp N7  &kp N8  &kp N9        &zero_hyphen             &trans
-&trans  &none   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp AT_SIGN   &kp LEFT_BRACKET         &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp AT_SIGN   &kp LEFT_BRACKET         &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp COLON     &mt RSHFT RIGHT_BRACKET  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &caret_tilde  &kp NON_US_BACKSLASH     &trans
             >;
