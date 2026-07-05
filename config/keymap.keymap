@@ -119,8 +119,8 @@
             bindings = <
 &trans  &trans           &trans     &trans     &trans     &trans                   &trans   &trans        &trans    &trans         &trans         &trans
 &trans  &kp F1           &kp F2     &kp F3     &kp F4     &kp F5                   &kp F7   &kp F8        &kp UP    &kp F9         &kp F10        &trans
-&trans  &kp PRINTSCREEN  &mkp MCLK  &mkp RCLK  &mkp LCLK  &kp F6  &trans  &trans   &kp F11  &kp LEFT      &kp DOWN  &kp RIGHT      &kp PG_UP      &trans
-&trans  &trans           &trans     &mkp MB4   &mkp MB5   &trans  &trans  &kp INS  &kp F12  &kp LS(LEFT)  &trans    &kp LS(RIGHT)  &kp PAGE_DOWN  &trans
+&trans  &kp LA(TAB)      &mkp MCLK  &mkp RCLK  &mkp LCLK  &kp F6  &trans  &trans   &kp F11  &kp LEFT      &kp DOWN  &kp RIGHT      &kp PG_UP      &trans
+&trans  &kp PRINTSCREEN  &trans     &mkp MB4   &mkp MB5   &trans  &trans  &kp INS  &kp F12  &kp LS(LEFT)  &trans    &kp LS(RIGHT)  &kp PAGE_DOWN  &trans
 &trans  &trans           &trans     &trans     &trans     &trans  &trans  &trans   &trans   &trans        &trans    &kp END        &kp HOME       &trans
             >;
         };
@@ -128,9 +128,9 @@
         function_special_mac {
             bindings = <
 &trans  &trans          &trans     &trans     &trans     &trans                   &trans   &trans        &trans    &trans         &trans         &trans
-&trans  &kp LC(F1)      &kp LC(W)  &kp LC(E)  &kp F4     &kp F5                   &kp F7   &kp F8        &kp UP    &kp F9         &kp F10        &trans
-&trans  &kp LS(LG(N5))  &mkp MCLK  &mkp RCLK  &mkp LCLK  &kp F6  &trans  &trans   &kp F11  &kp LEFT      &kp DOWN  &kp RIGHT      &kp PG_UP      &trans
-&trans  &trans          &trans     &mkp MB4   &mkp MB5   &trans  &trans  &kp INS  &kp F12  &kp LS(LEFT)  &trans    &kp LS(RIGHT)  &kp PAGE_DOWN  &trans
+&trans  &kp LC(Q)       &kp LC(W)  &kp LC(E)  &kp F4     &kp F5                   &kp F7   &kp F8        &kp UP    &kp F9         &kp F10        &trans
+&trans  &kp LG(TAB)     &mkp MCLK  &mkp RCLK  &mkp LCLK  &kp F6  &trans  &trans   &kp F11  &kp LEFT      &kp DOWN  &kp RIGHT      &kp PG_UP      &trans
+&trans  &kp LS(LG(N5))  &trans     &mkp MB4   &mkp MB5   &trans  &trans  &kp INS  &kp F12  &kp LS(LEFT)  &trans    &kp LS(RIGHT)  &kp PAGE_DOWN  &trans
 &trans  &trans          &trans     &trans     &trans     &trans  &trans  &trans   &trans   &trans        &trans    &kp END        &kp HOME       &trans
             >;
         };
