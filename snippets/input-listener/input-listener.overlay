@@ -1,7 +1,7 @@
 &pointing_listener {
     status = "okay";
     device = <&pointing_device>;
-    input-processors = <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>, <&zip_xy_scaler 2 1>;
+    input-processors = <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>, <&zip_xy_scaler 3 2>;
 
     scroll {
         layers = <7>;
